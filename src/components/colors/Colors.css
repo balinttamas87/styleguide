@@ -4,6 +4,7 @@
 }
 .colors-list {
 	display: flex;
+	justify-content: space-between;
 }
 .colors-heading {
 	margin-bottom: 1rem;
