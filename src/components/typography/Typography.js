@@ -16,7 +16,7 @@ export default () => (
 				<li>
 					<h4 className="h4">Paragraph</h4>
 					<Spacer/>
-					<p className="font-family-item">font-family: sans-serif≈</p>
+					<p className="font-family-item">font-family: sans-serif</p>
 				</li>
 			</ul>
 		</section>
