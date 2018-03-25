@@ -10,7 +10,7 @@ export default () => (
 			<h3 className="colors-heading h3">Colors</h3>
 			<ul className="colors-list">
 				{
-					colors.map((hex) => <Color hexValue={hex}/>)
+					colors.map((hex, index) => <Color hexValue={hex} key={`hex-${index}-${hex}`}/>)
 				}
 			</ul>
 		</section>
