@@ -9,3 +9,16 @@
 	justify-content: space-between;
 	max-width: 102px;
 }
+.buttons-title {
+	margin-bottom: 1rem;
+}
+.checkout-basket-item-wrapper {
+	background-color: #fafaf9;
+	padding: 1rem;	
+}
+.checkout-basket-item-inner {
+	display: flex;
+}
+.checkout-item-title {
+	margin-bottom: 1rem;
+}
