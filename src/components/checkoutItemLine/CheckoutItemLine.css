@@ -1,3 +1,18 @@
 .checkout-basket-item-inner {
 	display: flex;
 }
+.product-name {
+	margin-right: 1rem;
+}
+.product-price {
+	margin-right: 1rem;
+}
+.button-subtract {
+	margin-right: 0.5rem;
+}
+.product-quantity {
+	margin-right: 0.5rem;
+}
+.button-add {
+	margin-right: 1rem;
+}
