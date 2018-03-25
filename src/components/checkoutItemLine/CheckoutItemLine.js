@@ -23,6 +23,7 @@ class CheckoutItemLine extends Component {
 
   addQuantity() {
   	this.setState({productQuantity: this.state.productQuantity + 1});
+  	this.setTotalValue({target: {value: this.state.productQuantity}});
   }
 
   calculateTotalValue(value) {
