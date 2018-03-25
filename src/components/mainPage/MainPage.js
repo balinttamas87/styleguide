@@ -8,7 +8,7 @@ import {Route} from "react-router-dom";
 export default () => (
 		<div className="main-page-wrapper">
 			<header className="main-page-header">
-				<h2 className="main-page-heading">Page title</h2>
+				<h2 className="main-page-heading h2">Page title</h2>
 			</header>
 			<div className="main-page-content-wrapper">
 				<Route exact path="/" component={Guidelines}/>
