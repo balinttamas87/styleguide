@@ -27,7 +27,7 @@ class CheckoutItemLine extends Component {
   }
 
   calculateTotalValue(value) {
-		return this.props.productPrice * value;
+		return this.props.productPrice.split("£")[1] * value;
   }
 
   setTotalValue(event) {
