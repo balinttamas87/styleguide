@@ -2,6 +2,7 @@ import React from "react";
 import "./Components.css";
 import Button from "../button/Button";
 import Spacer from "../spacer/Spacer";
+import CheckoutItemLine from "../checkoutItemLine/CheckoutItemLine";
 
 const buttonStates = ["primary","success","warning","danger"];
 
@@ -18,14 +19,7 @@ export default () => (
 		<Spacer/>
 		<div className="checkout-basket-item-wrapper">
 			<h3 className="h3 checkout-item-title">Checkout item line</h3>
-			<div className="checkout-basket-item-inner">
-				<p>product name</p>
-				<p>product price</p>
-				<button>-</button>
-				<input type="number"/>
-				<button>+</button>
-				<p>total value</p>
-			</div>
+			<CheckoutItemLine/>
 		</div>
 	</div>
 )
