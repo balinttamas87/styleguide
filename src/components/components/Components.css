@@ -2,3 +2,10 @@
 	background-color: #fafaf9;
 	padding: 1rem;
 }
+.buttons-inner {
+	display: flex;
+	flex-direction: column;
+	height: 200px;
+	justify-content: space-between;
+	max-width: 102px;
+}
