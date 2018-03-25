@@ -19,7 +19,7 @@ export default () => (
 		<Spacer/>
 		<div className="checkout-basket-item-wrapper">
 			<h3 className="h3 checkout-item-title">Checkout item line</h3>
-			<CheckoutItemLine/>
+			<CheckoutItemLine productPrice="30"/>
 		</div>
 	</div>
 )
