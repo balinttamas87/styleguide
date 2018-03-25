@@ -11,10 +11,16 @@ class CheckoutItemLine extends Component {
     };
 
     this.subtractQuantity = this.subtractQuantity.bind(this);
+    this.addQuantity = this.addQuantity.bind(this);
+
   }
 
   subtractQuantity() {
-  	this.setState({productQuantity: this.state.productQuantity -1});
+  	this.setState({productQuantity: this.state.productQuantity - 1});
+  }
+
+  addQuantity() {
+  	this.setState({productQuantity: this.state.productQuantity + 1});
   }
 
   render() {
@@ -24,7 +30,7 @@ class CheckoutItemLine extends Component {
 				<p className="product-price">30</p>
 				<button onClick={this.subtractQuantity} id="button-subtract" className="button-subtract">-</button>
 				<input id="product-quantity" className="product-quantity" type="number" value={this.state.productQuantity}/>
-				<button id="button-add" className="button-add">+</button>
+				<button onClick={this.addQuantity} id="button-add" className="button-add">+</button>
 				<p id="total-value">{this.state.totalValue}</p>
 			</div>
     );
