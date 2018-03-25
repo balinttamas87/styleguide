@@ -6,8 +6,11 @@ const buttonStates = ["primary","success","warning","danger"];
 
 export default () => (
 	<div className="components-wrapper">
-	{
-		buttonStates.map((state) => <Button state={state}/>)
-	}
+		<div className="buttons-wrapper">
+			<h3 className="h3">Buttons</h3>
+			{
+				buttonStates.map((state) => <Button state={state}/>)
+			}
+		</div>
 	</div>
 )
