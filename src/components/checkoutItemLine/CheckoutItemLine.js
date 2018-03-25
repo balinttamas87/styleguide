@@ -6,7 +6,8 @@ class CheckoutItemLine extends Component {
     super(props);
 
     this.state = {
-      totalValue: 0
+      totalValue: 0,
+      productQuantity: 1
     };
 
   }
@@ -15,11 +16,11 @@ class CheckoutItemLine extends Component {
     return (
 			<div className="checkout-basket-item-inner">
 				<p className="product-name">product name</p>
-				<p className="product-price">product price</p>
+				<p className="product-price">30</p>
 				<button id="button-subtract" className="button-subtract">-</button>
-				<input id="product-quantity" className="product-quantity" type="number"/>
+				<input id="product-quantity" className="product-quantity" type="number" value={this.state.productQuantity}/>
 				<button id="button-add" className="button-add">+</button>
-				<p id="total-value">total value</p>
+				<p id="total-value">{this.state.totalValue}</p>
 			</div>
     );
   }
