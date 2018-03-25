@@ -8,9 +8,11 @@ export default () => (
 	<div className="components-wrapper">
 		<div className="buttons-wrapper">
 			<h3 className="h3">Buttons</h3>
+			<div className="buttons-inner">
 			{
 				buttonStates.map((state) => <Button state={state}/>)
 			}
+			</div>
 		</div>
 	</div>
 )
