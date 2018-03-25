@@ -12,7 +12,7 @@ export default () => (
 			<h3 className="h3 buttons-title">Buttons</h3>
 			<div className="buttons-inner">
 			{
-				buttonStates.map((state) => <Button state={state}/>)
+				buttonStates.map((state, index) => <Button state={state} key={`${state}-btn-${index}`}/>)
 			}
 			</div>
 		</div>
