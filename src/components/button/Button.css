@@ -2,8 +2,19 @@
 	border-radius: 5px;
 	padding: 0.5rem 2rem 0.5rem 2rem;
 	font-size: 1rem;
-}
-.button-primary{
-	background-color: #2F80ED;
 	color: #ffffff;
+}
+.button-primary {
+	background-color: #2F80ED;
+}
+.button-success {
+	background-color: #01FF70;
+	color: #111111;
+}
+.button-warning {
+	background-color: #FF851B;
+	color: #111111;
+}
+.button-danger {
+	background-color: #FF4136;
 }
