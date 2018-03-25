@@ -1,0 +1,16 @@
+.main-page-wrapper {
+	min-height: 100vh;
+	width: 80%;
+}
+.main-page-header {
+	background-color: #f3f2f2;
+	display: flex;
+	height: 4rem;
+	align-items: center;
+}
+.main-page-content-wrapper {
+	padding: 1rem;
+}
+.main-page-heading {
+	margin-left: 1rem;
+}
