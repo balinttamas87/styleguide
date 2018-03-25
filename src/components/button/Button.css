@@ -1,0 +1,9 @@
+.button {
+	border-radius: 5px;
+	padding: 0.5rem 2rem 0.5rem 2rem;
+	font-size: 1rem;
+}
+.button-primary{
+	background-color: #2F80ED;
+	color: #ffffff;
+}
